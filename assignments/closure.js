@@ -54,7 +54,7 @@ const counterFactory = () => {
 
 const newCounterFactory = counterFactory();
 
-console.log(newCounterFactory.increment()); // returns the fact that functions exist inside it.
+console.log(newCounterFactory.increment()); 
 // console.log(counterFactory(increment())); // says increment is undefined
 console.log(newCounterFactory.increment());
 console.log(newCounterFactory.increment());
